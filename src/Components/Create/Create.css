@@ -1,0 +1,147 @@
+.CreateContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+    margin: 0px;
+    box-sizing: border-box;
+    /* margin-top: 20vh; */
+}
+.CreateContainer h1{
+    padding: 15px;
+    font-family: 'Orbitron';
+
+}
+.CreateContainer form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.CreateContainer form input{
+    padding: 10px;
+    height: 6vh;
+    width: 40vh;
+    border: 2px solid aliceblue;
+    border-radius: 7px;
+}
+.CreateContainer form button{
+    background: #0562eed2;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin: 5px;
+    height: 6vh;
+    width: 40vh;
+    border: 2px solid rgb(53, 118, 175);
+    border-radius: 7px;
+}
+.CreateContainer button:nth-child(3){
+    background: #0c0c0d;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin: 5px;
+    height: 5vh;
+    width: 10vh;
+    border: none;
+    border-radius: 7px;
+}
+@media (max-width:650px){
+    .CreateContainer h1{
+        padding: 10px;
+        color: black;
+        font-size: 1.5rem;
+    }
+    .CreateContainer form input{
+        padding: 10px;
+        height: 5vh;
+        width: 30vh;
+        border: 2px solid aliceblue;
+        border-radius: 7px;
+    }
+    .CreateContainer form button{
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 5px;
+        height: 5vh;
+        width: 25vh;
+        text-align: center;
+    }
+    .CreateContainer button:nth-child(3){
+        
+        font-weight: bold;
+        margin: 5px;
+        height: 5vh;
+        width: 25vh;
+        border: none;
+        border-radius: 7px;
+    }
+}
+@media (max-width:350px){
+    .CreateContainer form input{
+        padding: 10px;
+        height: 3.5vh;
+        width: 25vh;
+        border: 2px solid aliceblue;
+        border-radius: 7px;
+    }
+    .CreateContainer form button{
+        /* background: #0562eed2;
+        color: aliceblue;
+        font-size: 1rem;
+        margin: 5px;
+        height: 3vh;
+        width: 20vh;
+        border: 2px solid rgb(53, 118, 175);
+        border-radius: 7px; */
+       
+        font-size: .9rem;
+        font-weight: bold;
+        width: 14vh;
+        
+    }
+    .CreateContainer h1{
+        padding: 10px;
+        color: black;
+        font-size: 1.1rem;
+    }
+    .CreateContainer button:nth-child(3){
+        font-size: .9rem;
+        font-weight: bold;
+        margin: 5px;
+        height: 5vh;
+        width: 14vh;
+       
+    }
+}
+@media(max-height:750px){
+    .CreateContainer button:nth-child(3){
+        font-weight: bold;
+        height: 6vh;
+        width: 15vh;
+    }
+    .CreateContainer form button{
+     height: 8vh;
+     font-size: 1.2rem;
+
+    }
+}
+@media(max-height:600px){
+
+    .CreateContainer button:nth-child(3){
+        font-size: .7rem;
+     height: 8%;
+        width: 20%;
+    }
+    .CreateContainer form button{
+        font-size: .7rem;
+        /* height: 10%; */
+        height: 8vh;
+        width: 50%;
+        /* padding: 10px;
+        text-align: center; */
+    }
+}
